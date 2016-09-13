@@ -1,0 +1,43 @@
+---
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>DARK WORLD</title>
+        <meta name="description" content="DARKWORLD Mass">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono">
+
+    </head>
+    <body>
+
+        <header>
+            <img src="img/DWSHIRT.png" />
+            <ul>
+                {% for link in site.data.config.links %}
+                <li>
+                    <a href="{{ link[1] }}"><i class="fa fa-{{ link[0] }}" aria-hidden="true"></i></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </header>
+        <ol id="artists">
+            {% for artist in site.data.config.artists %}
+            <li>
+                <a href="#">{{ artist[0] }}</a>
+                <ol>
+                    {% for link in artist[1] %}
+                    <li><a href="{{ link }}">{{ link }}</a></li>
+                    {% endfor %}
+                </ol>
+            </li>
+            {% endfor %}
+        </ol>
+        <script src="js/main.js"></script>
+    </body>
+</html>
