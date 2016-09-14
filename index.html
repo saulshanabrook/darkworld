@@ -17,11 +17,11 @@
     <body>
 
         <header>
-            <img src="img/DWSHIRT.png" />
+            <img src="img/DWSHIRT_350-min.png" width="360" height="278.547">
             <ul>
                 {% for link in site.data.config.links %}
                 <li>
-                    <a href="{{ link[1] }}"><i class="fa fa-{{ link[0] }}" aria-hidden="true"></i></a>
+                    <a href="{{ link[1] }}" target="_blank"><i class="fa fa-{{ link[0] }}" aria-hidden="true"></i></a>
                 </li>
                 {% endfor %}
             </ul>
@@ -32,7 +32,7 @@
                 <a href="javascript:void(0)">{{ artist[0] }}</a>
                 <ol>
                     {% for link in artist[1] %}
-                    <li><a href="{{ link }}">{{ link }}</a></li>
+                    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
                     {% endfor %}
                 </ol>
             </li>
