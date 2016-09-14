@@ -29,7 +29,7 @@
         <ol id="artists">
             {% for artist in site.data.config.artists %}
             <li>
-                <a href="#">{{ artist[0] }}</a>
+                <a href="javascript:void(0)">{{ artist[0] }}</a>
                 <ol>
                     {% for link in artist[1] %}
                     <li><a href="{{ link }}">{{ link }}</a></li>
