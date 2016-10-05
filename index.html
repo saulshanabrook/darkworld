@@ -19,7 +19,7 @@
 
 
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="fontello-7e15e84e/css/fontello-embedded.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono">
 
     </head>
@@ -30,7 +30,7 @@
             <ul>
                 {% for link in site.data.config.links %}
                 <li>
-                    <a href="{{ link[1] }}" target="_blank"><i class="fa fa-{{ link[0] }}" aria-hidden="true"></i></a>
+                    <a href="{{ link[1] }}" target="_blank"><i class="icon-{{ link[0] }}" aria-hidden="true"></i></a>
                 </li>
                 {% endfor %}
             </ul>
