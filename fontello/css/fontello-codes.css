@@ -1,0 +1,9 @@
+
+.icon-basket:before { content: '\e800'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-file-audio:before { content: '\f1c7'; } /* '' */
+.icon-facebook:before { content: '\f230'; } /* '' */
+.icon-bandcamp:before { content: '\f32b'; } /* '' */
+.icon-soundcloud:before { content: '\f348'; } /* '' */

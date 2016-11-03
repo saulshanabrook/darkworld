@@ -1,17 +1,11 @@
 {
-  "name": "",
+  "name": "fontello",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
   "units_per_em": 1000,
   "ascent": 850,
   "glyphs": [
-    {
-      "uid": "47a1f80457068fbeab69fdb83d7d0817",
-      "css": "youtube-play",
-      "code": 61802,
-      "src": "fontawesome"
-    },
     {
       "uid": "9affc98d652b86628d650ee58dbf0357",
       "css": "basket",
@@ -31,22 +25,34 @@
       "src": "fontawesome"
     },
     {
-      "uid": "dff942d95eb1b3f1be140e622d0a7c74",
-      "css": "soundcloud",
-      "code": 61886,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
-      "css": "facebook",
-      "code": 61594,
-      "src": "fontawesome"
-    },
-    {
       "uid": "2518846ee21c610004effeae5cb8f9cc",
       "css": "bandcamp",
       "code": 62251,
       "src": "brandico"
+    },
+    {
+      "uid": "6cc7af3e5b55720bcb6ef68372ce24be",
+      "css": "facebook",
+      "code": 62000,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a9862b9d5197886c1ad693ecd7120b31",
+      "css": "youtube",
+      "code": 61799,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "81db033e704eb7c586a365559d7c0f36",
+      "css": "file-audio",
+      "code": 61895,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b86600decaba538aca184421752cd640",
+      "css": "soundcloud",
+      "code": 62280,
+      "src": "entypo"
     }
   ]
 }
