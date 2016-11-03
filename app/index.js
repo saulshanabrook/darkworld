@@ -1,3 +1,6 @@
+require("./fontello/css/fontello.css");
+require("./index.css");
+
 function getArtists() {
   return document.getElementById("artists").children;
 }
@@ -23,7 +26,9 @@ function makeArtistOnClick(i) {
   }
 }
 
-for (var i = 0; i < getArtists().length; i++) {
-  getArtists()[i].children[0].addEventListener("click", makeArtistOnClick(i), false);
+document.addEventListener('DOMContentLoaded', function() {
+  for (var i = 0; i < getArtists().length; i++) {
+    getArtists()[i].children[0].addEventListener("click", makeArtistOnClick(i), false);
+  }
+}, false);
 
-}

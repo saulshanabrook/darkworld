@@ -25,7 +25,7 @@ header ul {
 
 header li {
     display: inline-block;
-    padding: 0.0-em;
+    padding: 0.0em;
 }
 a {
     color: #727272;
@@ -60,7 +60,6 @@ a:hover {
 }
 #artists > li > a:hover {
     color: #555555;
-    // font-size: 1.32em;
 }
 
 #artists .visible {
